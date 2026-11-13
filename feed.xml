@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valentina &amp; Luca Diaries</title>
+    <link>https://apavlik02-blip.github.io/valentina-luca-diaries/</link>
+    <description>A love story told in slow mornings, faraway cities, and quiet luxury.</description>
+    <language>en-us</language>
+    <atom:link href="https://apavlik02-blip.github.io/valentina-luca-diaries/feed.xml" rel="self" type="application/rss+xml"/>
+    <!--
+      Published posts appear as <item> entries, for example:
+
+      <item>
+        <title>Post title</title>
+        <link>https://apavlik02-blip.github.io/valentina-luca-diaries/posts/your-slug.html</link>
+        <guid>https://apavlik02-blip.github.io/valentina-luca-diaries/posts/your-slug.html</guid>
+        <pubDate>Wed, 01 Jan 2026 12:00:00 GMT</pubDate>
+        <description>One- or two-sentence summary.</description>
+      </item>
+
+      See README.md. If you add a custom domain, update SITE_BASE in
+      js/site-config.js and the URLs in this file.
+    -->
+  </channel>
+</rss>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--
+  POST TEMPLATE — not a published post.
+  This file is named with a leading underscore so it is clearly a template,
+  is not linked from the site, and should not be added to feed.xml or sitemap.xml.
+
+  To publish a post:
+  1. Copy this file to posts/your-slug.html (no leading underscore).
+  2. Replace every YOUR-SLUG, YOUR POST TITLE, and YOUR-DESCRIPTION below.
+  3. Set the canonical / og:url / og:image to:
+       https://apavlik02-blip.github.io/valentina-luca-diaries/posts/your-slug.html
+     (SITE_BASE is defined in ../js/site-config.js; if you add a custom domain,
+     update SITE_BASE there and these URLs. See README.md.)
+  4. Remove the noindex robots meta tag once the post is ready to be indexed.
+  5. Add a linked card on the home page (index.html) in The Diaries list.
+  6. Add an <item> to feed.xml (title, link, guid, pubDate, description).
+  7. Add the post URL to sitemap.xml.
+-->
+<meta name="robots" content="noindex, nofollow">
+<title>YOUR POST TITLE — Valentina &amp; Luca Diaries</title>
+<meta name="description" content="YOUR-DESCRIPTION">
+<link rel="canonical" href="https://apavlik02-blip.github.io/valentina-luca-diaries/posts/YOUR-SLUG.html">
+<link rel="alternate" type="application/rss+xml" title="Valentina &amp; Luca Diaries" href="https://apavlik02-blip.github.io/valentina-luca-diaries/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Valentina &amp; Luca Diaries">
+<meta property="og:title" content="YOUR POST TITLE — Valentina &amp; Luca Diaries">
+<meta property="og:description" content="YOUR-DESCRIPTION">
+<meta property="og:url" content="https://apavlik02-blip.github.io/valentina-luca-diaries/posts/YOUR-SLUG.html">
+<meta property="og:image" content="https://apavlik02-blip.github.io/valentina-luca-diaries/images/hero-yacht-sunset.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="YOUR POST TITLE — Valentina &amp; Luca Diaries">
+<meta name="twitter:description" content="YOUR-DESCRIPTION">
+<meta name="twitter:image" content="https://apavlik02-blip.github.io/valentina-luca-diaries/images/hero-yacht-sunset.jpg">
+<link rel="stylesheet" href="../css/style.css">
+<script data-goatcounter="https://valentina-luca-diaries.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../">Valentina &amp; Luca</a>
+  <nav>
+    <a href="../#diaries">The Diaries</a>
+    <a href="../about/">About</a>
+    <a href="#subscribe">Subscribe</a>
+  </nav>
+</header>
+<main>
+  <header class="article-header">
+    <p class="kicker">The diaries</p>
+    <h1>YOUR POST TITLE</h1>
+    <p class="lede"><time datetime="2026-01-01">Month Day, 2026</time></p>
+  </header>
+  <article class="article-body">
+    <p>Write the post here. Keep the voice cinematic and editorial, and label any AI-generated images in the caption or nearby text.</p>
+    <p>Optional image:</p>
+    <p><img src="../images/hero-yacht-sunset.jpg" alt="Describe the image. Add “(AI-generated)” when the photograph is AI-created."></p>
+  </article>
+
+  <section class="subscribe" id="subscribe" data-subscribe>
+    <div class="section-head">
+      <p class="kicker">The letters</p>
+      <h2>Subscribe</h2>
+      <p class="lede">Occasional notes from the diaries — never a crowd, never a hard sell.</p>
+    </div>
+    <p class="subscribe-soon">Subscriptions opening soon.</p>
+    <form class="embeddable-buttondown-form" method="post" target="popupwindow" hidden>
+      <label for="email-post">Email</label>
+      <input id="email-post" type="email" name="email" placeholder="you@example.com" required autocomplete="email">
+      <input type="hidden" name="embed" value="1">
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <strong>Valentina &amp; Luca Diaries</strong>
+  <p>Valentina & Luca are fictional characters created with AI.</p>
+  <p>© 2026 Valentina &amp; Luca Diaries</p>
+</footer>
+<script src="../js/site-config.js"></script>
+<script src="../js/subscribe.js"></script>
+</body>
+</html>

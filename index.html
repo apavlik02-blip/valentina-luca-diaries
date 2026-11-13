@@ -1,34 +1,129 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Valentina & Luca Diaries — fictional AI couple's editorial world of winter escapes, romantic moments and elevated interiors.">
-<title>Valentina & Luca Diaries | An Editorial Love Story</title>
-<style>
-:root{--bg:#101014;--ink:#f7f1e8;--muted:#c6bdb5;--gold:#d2b78c;--border:#534b46}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Georgia,serif}
-a{color:inherit}header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 5vw;border-bottom:1px solid var(--border);flex-wrap:wrap}
-.brand{text-transform:uppercase;letter-spacing:.24em;font-size:1.02rem;text-decoration:none}nav{display:flex;gap:23px;flex-wrap:wrap}nav a{font:12px/1.4 Arial,sans-serif;text-decoration:none;letter-spacing:.13em;text-transform:uppercase}
-.hero{min-height:75vh;display:grid;place-items:center;text-align:center;padding:100px 8vw;background:linear-gradient(rgba(16,16,20,.42),rgba(16,16,20,.58)),url(images/hero-yacht-sunset.jpg) center 38%/cover no-repeat}
-.kicker{font:11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.35em;color:var(--gold)}h1{font-size:clamp(3.5rem,9vw,8rem);line-height:1.03;font-weight:400;letter-spacing:-.04em;margin:25px 0}h2{font-size:clamp(2.1rem,5vw,4rem);line-height:1.15;font-weight:400;margin:12px 0 28px}.lede{max-width:540px;margin:0 auto 28px;color:var(--muted);font-size:1.15rem}.btn{display:inline-block;text-decoration:none;border:1px solid var(--gold);color:var(--ink);padding:14px 25px;text-transform:uppercase;letter-spacing:.18em;font:11px Arial,sans-serif}
-section{padding:90px 6vw}.section-head{text-align:center;max-width:700px;margin:0 auto 45px}.section-head p{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.story{border:1px solid var(--border);background:#1b1b21;overflow:hidden}.art{height:300px;background:#1d1c24;padding:0;overflow:hidden}.art img{width:100%;height:100%;object-fit:cover;display:block}.art.winter{background:linear-gradient(135deg,#bfc4c7,#726d77 40%,#242530)}.art.home{background:linear-gradient(135deg,#cfc2aa,#7a6759 45%,#201b1e)}.story .copy{padding:26px}.story h3{font-size:1.7rem;font-weight:400;margin:0 0 8px}.story p{margin:0;color:var(--muted)}.full{background:#242127;text-align:center}.full p{max-width:700px;margin:0 auto 30px;color:var(--muted)}
-footer{padding:45px 6vw;border-top:1px solid var(--border);font:12px/1.8 Arial,sans-serif;color:var(--muted)}footer strong{color:var(--ink)}footer a{color:var(--gold)}
-@media(max-width:760px){.grid{grid-template-columns:1fr}.hero{min-height:65vh}nav{gap:12px}section{padding:60px 5vw}}
-</style>
-<script data-goatcounter="https://valentina-luca-diaries.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Valentina &amp; Luca Diaries</title>
+<meta name="description" content="A love story told in slow mornings, faraway cities, and quiet luxury.">
+<!--
+  SITE_BASE (no trailing slash): https://apavlik02-blip.github.io/valentina-luca-diaries
+  Also defined in js/site-config.js. If you add a custom domain, update SITE_BASE
+  there and every canonical / Open Graph / Twitter / RSS URL below, plus feed.xml
+  and sitemap.xml. See README.md.
+-->
+<link rel="canonical" href="https://apavlik02-blip.github.io/valentina-luca-diaries/">
+<link rel="alternate" type="application/rss+xml" title="Valentina &amp; Luca Diaries" href="https://apavlik02-blip.github.io/valentina-luca-diaries/feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Valentina &amp; Luca Diaries">
+<meta property="og:title" content="Valentina &amp; Luca Diaries">
+<meta property="og:description" content="A love story told in slow mornings, faraway cities, and quiet luxury.">
+<meta property="og:url" content="https://apavlik02-blip.github.io/valentina-luca-diaries/">
+<meta property="og:image" content="https://apavlik02-blip.github.io/valentina-luca-diaries/images/hero-yacht-sunset.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Valentina &amp; Luca Diaries">
+<meta name="twitter:description" content="A love story told in slow mornings, faraway cities, and quiet luxury.">
+<meta name="twitter:image" content="https://apavlik02-blip.github.io/valentina-luca-diaries/images/hero-yacht-sunset.jpg">
+<link rel="stylesheet" href="css/style.css">
+<script data-goatcounter="https://valentina-luca-diaries.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
-<header><a class="brand" href="#">Valentina & Luca</a><nav><a href="#diaries">The Diaries</a><a href="#holiday">Holiday Edit</a><a href="#about">Our Story</a></nav></header>
+<header class="site-header">
+  <a class="brand" href="#">Valentina &amp; Luca</a>
+  <nav>
+    <a href="#diaries">The Diaries</a>
+    <a href="about/">About</a>
+    <a href="#subscribe">Subscribe</a>
+  </nav>
+</header>
 <main>
-<div class="hero"><div><p class="kicker">A story in every destination</p><h1>Beautifully<br>Ever After.</h1><p class="lede">A cinematic world of love, travel and timeless luxury. Follow the fictional adventures of Valentina & Luca.</p><a class="btn" href="#diaries">Enter the Diaries</a></div></div>
-<section id="diaries"><div class="section-head"><p class="kicker">The latest chapters</p><h2>Moments worth keeping</h2><p>Romantic journeys, considered spaces and an enduring love story.</p></div><div class="grid">
-<article class="story"><div class="art"><img src="images/amalfi-walk.jpg" alt="Valentina and Luca walking the Amalfi Coast at golden hour"></div><div class="copy"><h3>Winter, Somewhere Wonderful</h3><p>A dream itinerary of snowy streets, candlelit dinners and elegant escapes.</p></div></article>
-<article class="story"><div class="art"><img src="images/sunset-embrace-knit.jpg" alt="Luca holding Valentina close on a yacht at sunset"></div><div class="copy"><h3>A Season for Two</h3><p>Little rituals and unforgettable moments throughout the festive season.</p></div></article>
-<article class="story"><div class="art"><img src="images/como-breakfast.jpg" alt="Valentina and Luca at breakfast on a Lake Como terrace"></div><div class="copy"><h3>The White & Gold Edit</h3><p>Classic Gothic Christmas inspiration: velvet, silver, ivory and gold.</p></div></article>
-</div></section>
-<section class="full" id="holiday"><p class="kicker">The holiday issue · 2026</p><h2>Christmas, with a touch of drama.</h2><p>Our seasonal inspiration board brings together sculptural garlands, silver ornaments, candlelight and timeless winter styling. Curated product links coming soon.</p><a class="btn" href="mailto:hello@example.com?subject=Valentina%20and%20Luca%20Diaries" onclick="event.preventDefault();alert('Contact details coming soon.');">Coming soon</a></section>
-<section id="about"><div class="section-head"><p class="kicker">Behind the diaries</p><h2>Meet Valentina & Luca</h2><p>Two fictional AI-created characters in an ongoing editorial romance, bringing travel dreams and elevated everyday living to life. Imagery and stories are creative fiction; any future affiliate recommendations will be clearly disclosed.</p></div></section>
-</main><footer><strong>VALENTINA & LUCA DIARIES</strong><p>© 2026 Valentina & Luca Diaries · AI-generated fictional lifestyle editorial. No products are currently for sale.</p></footer>
-</body></html>
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="kicker">Valentina &amp; Luca Diaries</p>
+      <h1>A love story told in slow mornings, faraway cities, and quiet luxury.</h1>
+      <a class="btn" href="#diaries">Enter the Diaries</a>
+    </div>
+  </div>
+
+  <section id="diaries">
+    <div class="section-head">
+      <p class="kicker">The latest chapters</p>
+      <h2>Moments worth keeping</h2>
+      <p>Essays on love, attention, and the life we invent when we want something more beautiful than the ordinary day.</p>
+    </div>
+    <div class="diaries-grid">
+      <article class="story story-featured">
+        <div class="art"><img src="images/sunset-embrace-knit.jpg" alt="Luca holding Valentina close on a yacht at sunset"></div>
+        <div class="copy">
+          <p class="coming-soon">Coming soon</p>
+          <h3>We Aren't Real. Our Love Story Still Taught Me Something True.</h3>
+          <p>An origin story that names, from the first line, two people who will never walk into a room — and asks what a fictional love story can still teach.</p>
+        </div>
+      </article>
+      <article class="story">
+        <div class="art"><img src="images/amalfi-walk.jpg" alt="Valentina and Luca walking the Amalfi Coast at golden hour"></div>
+        <div class="copy">
+          <p class="coming-soon">Coming soon</p>
+          <h3>What an AI Couple Reveals About Modern Love</h3>
+          <p>On the habits we already bring to love — the photograph, the caption, the edited evening — and what an invented couple makes visible.</p>
+        </div>
+      </article>
+      <article class="story">
+        <div class="art"><img src="images/hero-yacht-sunset.jpg" alt="Valentina and Luca on a yacht at sunset"></div>
+        <div class="copy">
+          <p class="coming-soon">Coming soon</p>
+          <h3>Would You Fall for Someone Who Never Has a Bad Day?</h3>
+          <p>A question about ease and composure, and whether a love without weather is the one we actually want.</p>
+        </div>
+      </article>
+      <article class="story">
+        <div class="art"><img src="images/como-breakfast.jpg" alt="Valentina and Luca at breakfast on a Lake Como terrace"></div>
+        <div class="copy">
+          <p class="coming-soon">Coming soon</p>
+          <h3>Luxury Isn't the Hotel. It's Having Nowhere to Be.</h3>
+          <p>A quieter definition of luxury: not the lobby, but the permission to stay, with nowhere else to be.</p>
+        </div>
+      </article>
+      <article class="story">
+        <div class="art"><img src="images/sunset-embrace-knit.jpg" alt="Valentina and Luca in a close embrace at dusk"></div>
+        <div class="copy">
+          <p class="coming-soon">Coming soon</p>
+          <h3>The Money Conversation Most Couples Avoid</h3>
+          <p>On the silence that gathers around money, and why the conversation we postpone is often about values, not numbers.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="teaser" id="our-story">
+    <div class="section-head">
+      <p class="kicker">Behind the diaries</p>
+      <h2>Our story</h2>
+      <p class="lede">Valentina and Luca are a fictional, AI-created couple in an ongoing editorial romance. Their stories are written by Amanda Pavlik.</p>
+      <a class="btn" href="about/">Read the About page</a>
+    </div>
+  </section>
+
+  <section class="subscribe" id="subscribe" data-subscribe>
+    <div class="section-head">
+      <p class="kicker">The letters</p>
+      <h2>Subscribe</h2>
+      <p class="lede">Occasional notes from the diaries — never a crowd, never a hard sell.</p>
+    </div>
+    <p class="subscribe-soon">Subscriptions opening soon.</p>
+    <form class="embeddable-buttondown-form" method="post" target="popupwindow" hidden>
+      <label for="email-home">Email</label>
+      <input id="email-home" type="email" name="email" placeholder="you@example.com" required autocomplete="email">
+      <input type="hidden" name="embed" value="1">
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <strong>Valentina &amp; Luca Diaries</strong>
+  <p>Valentina & Luca are fictional characters created with AI.</p>
+  <p>© 2026 Valentina &amp; Luca Diaries</p>
+</footer>
+<script src="js/site-config.js"></script>
+<script src="js/subscribe.js"></script>
+</body>
+</html>

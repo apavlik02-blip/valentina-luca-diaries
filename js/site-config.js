@@ -17,4 +17,4 @@
  *   "Subscriptions opening soon" state and will not submit.
  */
 window.SITE_BASE = "https://apavlik02-blip.github.io/valentina-luca-diaries";
-window.BUTTONDOWN_USERNAME = "BUTTONDOWN_USERNAME";
+window.BUTTONDOWN_USERNAME = "valandluca";
